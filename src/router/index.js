@@ -10,6 +10,11 @@ const routes = [
     path: '/example-computed',
     name: 'ExampleComputed',
     component: () => import('@/views/ExampleComputed.vue')
+  },
+  {
+    path: '/example-lifecycle',
+    name: 'ExampleLifecycle',
+    component: () => import('@/views/ExampleLifecycle.vue')
   }
 ]
 

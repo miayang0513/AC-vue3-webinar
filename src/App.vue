@@ -65,6 +65,10 @@ export default {
       {
         name: 'Computed',
         path: 'example-computed'
+      },
+      {
+        name: 'Lifecycle',
+        path: 'example-lifecycle'
       }
     ])
 
