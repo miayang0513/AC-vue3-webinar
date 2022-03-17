@@ -69,6 +69,10 @@ export default {
       {
         name: 'Lifecycle',
         path: 'example-lifecycle'
+      },
+      {
+        name: 'Dependency Injection',
+        path: 'example-dependency-injection'
       }
     ])
 

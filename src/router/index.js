@@ -15,6 +15,11 @@ const routes = [
     path: '/example-lifecycle',
     name: 'ExampleLifecycle',
     component: () => import('@/views/ExampleLifecycle.vue')
+  },
+  {
+    path: '/example-dependency-injection',
+    name: 'ExampleDependencyInjection',
+    component: () => import('@/views/ExampleDependencyInjection.vue')
   }
 ]
 
