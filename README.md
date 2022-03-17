@@ -1,4 +1,4 @@
-# vue3_demo
+# AC-vue3-webinar
 
 ## Project setup
 ```
