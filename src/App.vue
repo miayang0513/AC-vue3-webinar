@@ -73,6 +73,10 @@ export default {
       {
         name: 'Dependency Injection',
         path: 'example-dependency-injection'
+      },
+      {
+        name: 'Composable',
+        path: 'example-composable'
       }
     ])
 

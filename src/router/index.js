@@ -20,6 +20,11 @@ const routes = [
     path: '/example-dependency-injection',
     name: 'ExampleDependencyInjection',
     component: () => import('@/views/ExampleDependencyInjection.vue')
+  },
+  {
+    path: '/example-composable',
+    name: 'ExampleComposable',
+    component: () => import('@/views/ExampleComposable.vue')
   }
 ]
 
