@@ -25,6 +25,11 @@ const routes = [
     path: '/example-composable',
     name: 'ExampleComposable',
     component: () => import('@/views/ExampleComposable.vue')
+  },
+  {
+    path: '/example-v-bind-style',
+    name: 'ExampleVBindStyle',
+    component: () => import('@/views/ExampleVBindStyle.vue')
   }
 ]
 

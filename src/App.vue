@@ -77,6 +77,10 @@ export default {
       {
         name: 'Composable',
         path: 'example-composable'
+      },
+      {
+        name: 'v-bind() in style',
+        path: 'example-v-bind-style'
       }
     ])
 
