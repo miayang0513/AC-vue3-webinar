@@ -30,6 +30,11 @@ const routes = [
     path: '/example-v-bind-style',
     name: 'ExampleVBindStyle',
     component: () => import('@/views/ExampleVBindStyle.vue')
+  },
+  {
+    path: '/example-fragments',
+    name: 'ExampleFragments',
+    component: () => import('@/views/ExampleFragments.vue')
   }
 ]
 

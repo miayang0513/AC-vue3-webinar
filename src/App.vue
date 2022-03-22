@@ -81,6 +81,10 @@ export default {
       {
         name: 'v-bind() in style',
         path: 'example-v-bind-style'
+      },
+      {
+        name: 'Fragments',
+        path: 'example-fragments'
       }
     ])
 
