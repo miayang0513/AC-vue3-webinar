@@ -1,11 +1,11 @@
 <template>
   <div>
     <div>
-      <Button @click="refIncrement">Button Ref</Button>
+      <button @click="refIncrement">Button Ref</button>
       <p>{{ count }}</p>
     </div>
     <div>
-      <Button @click="reactiveIncrement">Button Reactive</Button>
+      <button @click="reactiveIncrement">Button Reactive</button>
       <p>{{ state.count }}</p>
     </div>
   </div>

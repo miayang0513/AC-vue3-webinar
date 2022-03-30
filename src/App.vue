@@ -17,6 +17,8 @@ body {
 }
 
 main {
+  position: relative;
+  width: 100%;
   padding: 30px;
 }
 
@@ -85,6 +87,10 @@ export default {
       {
         name: 'Fragments',
         path: 'example-fragments'
+      },
+      {
+        name: 'Teleport',
+        path: 'example-teleport'
       }
     ])
 

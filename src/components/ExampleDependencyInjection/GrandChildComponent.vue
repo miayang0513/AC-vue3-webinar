@@ -9,7 +9,7 @@ import { inject } from 'vue'
 export default {
   name: 'GrandChildComponent',
   setup () {
-    const msg = inject('msg', 'default value')
+    const msg = inject('msg')
     const defaultValue = inject('defaultValue', 'default value')
 
     return {

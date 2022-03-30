@@ -35,6 +35,11 @@ const routes = [
     path: '/example-fragments',
     name: 'ExampleFragments',
     component: () => import('@/views/ExampleFragments.vue')
+  },
+  {
+    path: '/example-teleport',
+    name: 'ExampleTeleport',
+    component: () => import('@/views/ExampleTeleport.vue')
   }
 ]
 
